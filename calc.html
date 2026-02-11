@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online calc</title>
+    <link rel="stylesheet" href="./calcStyle.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <div class="calc-container">
+        <div class="calc-output">
+            <input placeholder="waiting ur example..." id='output-await' disabled>
+            <input placeholder="calculate in process!" id='output-inProcess' style='display: none;' disabled>
+        </div>
+        <div class="calc-num-cont">
+            <div class="sum-cont">
+                <div id="sum">=</div>
+                <div id="remove" style="font-size: 32px;">clear</div>
+            </div>
+            <div class="inc-dec-cont">
+                <div id="minus">-</div>
+                <div id="plus">+</div>
+                <div id="divide">:</div>
+                <div id="multiply">*</div>
+            </div>
+            <div class="wrapper">
+                <div class="nums">
+                    <div id="1">1</div>
+                    <div id="2">2</div>
+                    <div id="3">3</div>
+                    <div id="4">4</div>
+                    <div id="5">5</div>
+                    <div id="6">6</div>
+                    <div id="7">7</div>
+                    <div id="8">8</div>
+                    <div id="9">9</div>
+                    <div id="0" class="zero">0</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./calcScript.js"></script>
+    <script src="./outputs.js"></script>
+</body>
+</html>
